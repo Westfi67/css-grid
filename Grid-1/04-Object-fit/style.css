@@ -23,3 +23,9 @@ body {
 	Obrázek *MUSÍ* mít nastavenou vlastnost width a height,
 	jinak object-fit nebude fungovat.
 */
+
+.obr{
+	width: 400px;
+	height: 200px;
+	object-fit: cover;
+}

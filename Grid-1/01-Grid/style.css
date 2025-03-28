@@ -23,3 +23,15 @@ html { box-sizing: border-box; }
 
 /* ---------------------------------------------------- */
 
+.kontejner{
+    display: grid;
+    height: 80vh;
+    grid-auto-flow: dense;
+    grid-template-columns: 150px 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.item1{
+    grid-column: 2/  span 3;
+    grid-row:  span 2;
+}
